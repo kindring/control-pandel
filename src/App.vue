@@ -6,12 +6,15 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from '@components/HelloWorld.vue'
+import b from '@request/api';
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  async mounted(){
+    
   }
 }
 </script>

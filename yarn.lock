@@ -5465,6 +5465,21 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mock2@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/mock2/-/mock2-0.0.17.tgz#c8b1bf66dc0d3b2b70fbf3979e5aeac172e8edfe"
+  integrity sha1-yLG/ZtwNOytw+/OXnlrqwXLo7f4=
+  dependencies:
+    promise-sync-es6 "^0.1.4"
+    resolve-module-path "0.0.2"
+
+mockjs2@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/mockjs2/-/mockjs2-1.0.8.tgz#37ca061d6c3319d888292aef656434380971c94c"
+  integrity sha512-IXY9wzq3Pr2tybkJnT+dzrTz0GBRTtgXc7Cke/UUQyyWtbjDrck8uZ3NmMF4LaWgAD8vm8EMGcBk4Itc6nzpRg==
+  dependencies:
+    commander "*"
+
 mockjs@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mockjs/-/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
@@ -6551,6 +6566,11 @@ promise-inflight@^1.0.1:
   resolved "https://registry.npm.taobao.org/promise-inflight/download/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise-sync-es6@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/promise-sync-es6/-/promise-sync-es6-0.1.4.tgz#0bd2b7194d22ccc8dbc74c32e34053e0932533c9"
+  integrity sha1-C9K3GU0izMjbx0wy40BT4JMlM8k=
+
 proxy-addr@~2.0.5:
   version "2.0.6"
   resolved "https://registry.npm.taobao.org/proxy-addr/download/proxy-addr-2.0.6.tgz#fdc2336505447d3f2f2c638ed272caf614bbb2bf"
@@ -6899,6 +6919,11 @@ resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/resolve-from/download/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY=
+
+resolve-module-path@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/resolve-module-path/-/resolve-module-path-0.0.2.tgz#a937638bf4a04c9322251d02469cca03801b89cd"
+  integrity sha1-qTdji/SgTJMiJR0CRpzKA4Abic0=
 
 resolve-url@^0.2.1:
   version "0.2.1"
