@@ -1,8 +1,15 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <a-layout id="control">
+    <a-layout>
+      <a-layout-sider>
+        <a-menu>
+          <a-menu-item>
+            <span>测试</span>
+          </a-menu-item>
+        </a-menu>   
+      </a-layout-sider>
+    </a-layout>
+  </a-layout>
 </template>
 
 <script>
@@ -11,7 +18,6 @@ import b from '@request/api';
 export default {
   name: 'App',
   components: {
-    HelloWorld
   },
   async mounted(){
     
